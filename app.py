@@ -14,7 +14,7 @@ import cv2
 import time
 
 # Gemini API setup (direct key as you requested)
-genai.configure(api_key="AIzaSyBDJ3nvuCbvNA0e3nuri2Fjt7V5Xfis4Zs")
+genai.configure(api_key="hide")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 engine = pyttsx3.init()
@@ -279,7 +279,7 @@ elif menu == "Linux Command (Vyuha)":
 
 elif menu == "DroidCam":
     st.subheader("DroidCam Streaming")
-    ip = st.text_input("Device IP", "192.168.1.1")
+    ip = st.text_input("Device IP", "192.168.0.0")
     port = st.text_input("Port", "4747")
     if st.button("Start Stream"):
         droidcam_stream(ip, port)
