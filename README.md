@@ -98,3 +98,12 @@ instagrapi
 paramiko
 google-generativeai
 SpeechRecognition
+```
+
+
+## 📫 Contact
+
+If you have any questions, feedback, or ideas to improve Saundarya, feel free to reach out!
+
+- 📧 Email: [rprajapati00017@gmail.com](mailto:rprajapati00017@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/rahul-prajapat-a86839255](https://www.linkedin.com/in/rahul-prajapat-a86839255/)
